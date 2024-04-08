@@ -968,16 +968,7 @@ namespace v2rayN.Resx {
                 return ResourceManager.GetString("menuOptionSetting", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   查找类似 Promotion 的本地化字符串。
-        /// </summary>
-        public static string menuPromotion {
-            get {
-                return ResourceManager.GetString("menuPromotion", resourceCulture);
-            }
-        }
-        
+                      
         /// <summary>
         ///   查找类似 Test servers real delay (Ctrl+R) 的本地化字符串。
         /// </summary>
