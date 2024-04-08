@@ -418,12 +418,7 @@ namespace v2rayN.Views
             StorageUI();
             ViewModel?.ShowHideWindow(false);
         }
-
-        private void menuPromotion_Click(object sender, RoutedEventArgs e)
-        {
-            Utils.ProcessStart($"{Utils.Base64Decode(Global.PromotionUrl)}?t={DateTime.Now.Ticks}");
-        }
-
+        
         private void txtRunningInfoDisplay_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
             ViewModel?.TestServerAvailability();
