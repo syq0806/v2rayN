@@ -24,7 +24,6 @@ namespace v2rayN
         public const string JuicityCoreUrl = "https://github.com/juicity/juicity/releases";
         public const string CustomRoutingListUrl = @"https://raw.githubusercontent.com/2dust/v2rayCustomRoutingList/master/";
 
-        public const string PromotionUrl = @"aHR0cHM6Ly85LjIzNDQ1Ni54eXovYWJjLmh0bWw=";
         public const string ConfigFileName = "guiNConfig.json";
         public const string CoreConfigFileName = "config.json";
         public const string CorePreConfigFileName = "configPre.json";
